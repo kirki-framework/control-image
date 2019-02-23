@@ -192,3 +192,5 @@ kirki.control['kirki-image'] = {
         );
     }
 };
+
+wp.customize.controlConstructor['kirki-image'] = wp.customize.kirkiDynamicControl.extend( {} );
