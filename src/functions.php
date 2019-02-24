@@ -18,8 +18,8 @@ add_action(
 add_action(
     'customize_controls_print_footer_scripts',
     function() {
-        $path = apply_filters( 'kirki_control_view_generic', __DIR__ . '/view.php' );
-        echo '<script type="text/html" id="tmpl-kirki-input-generic">';
+        $path = apply_filters( 'kirki_control_view_image', __DIR__ . '/view.php' );
+        echo '<script type="text/html" id="tmpl-kirki-input-image">';
         include $path;
         echo '</script>';
     }
