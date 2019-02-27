@@ -15,6 +15,8 @@ add_action(
     }
 );
 
+class_alias( 'Kirki\Field\Image', 'Kirki_Field_Image' );
+
 add_action(
     'customize_controls_print_footer_scripts',
     function() {
