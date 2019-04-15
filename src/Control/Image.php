@@ -52,7 +52,7 @@ class Image extends Base {
 		wp_set_script_translations( 'kirki-control-image', 'kirki' );
 	}
 
-		/**
+	/**
 	 * An Underscore (JS) template for this control's content (but not its container).
 	 *
 	 * Class variables for this control class are available in the `data` JS object;
