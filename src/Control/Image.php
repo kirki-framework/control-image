@@ -66,7 +66,7 @@ class Image extends Base {
 	 */
 	protected function content_template() {
 		?>
-		<label>wp_set_script_translations
+		<label>
 			<span class="customize-control-title">{{{ data.label }}}</span>
 			<# if ( data.description ) { #>
 				<span class="description customize-control-description">{{{ data.description }}}</span>
